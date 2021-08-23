@@ -13,9 +13,9 @@ const {
 router
     .route('/')
     .get(getAllUser)
-    .post(createPizza);
+    .post(createUser);
 
-// /api/pizzas/:id
+// /api/users/:id
 router
     .route('/:id')
     .get(getUserById)
