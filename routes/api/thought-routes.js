@@ -15,10 +15,10 @@ router
     .get(getAllThought)
     .post(createThought);
 
-// // /api/thoughts/:id
-// router
-//     .route('/:id')
-//     .get(getThoughtById)
+// /api/thoughts/:id
+router
+    .route('/:id')
+    .get(getThoughtById)
 //     .put(updateThought)
 //     .delete(deleteThought);
 
