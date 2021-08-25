@@ -10,7 +10,12 @@ const thoughtController = {
             console.log(err);
             res.sendStatus(400);
           });
-    }
+    },
+    createThought({ body }, res) {
+        Thought.create(body)
+          .then(dbUserData => res.json(dbUserData))
+          .catch(err => res.json(err));
+      },
 }
 
 module.exports = thoughtController;
