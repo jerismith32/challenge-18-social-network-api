@@ -46,7 +46,7 @@
   [Help On Error Message](https://stackoverflow.com/questions/36558909/route-get-requires-callback-functions-but-got-a-object-undefined)
 
   ## Video
-  [Video Walk Through]()
+  [Video Walk Through](https://drive.google.com/file/d/1caMrx01uYP6cgk4brG44u3GJL8q2D0h8/view)
 
   ## Questions
   [GitHub](https://github.com/jerismith32)
